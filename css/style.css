@@ -798,7 +798,8 @@ img{
     font-weight: 500;
     color: #222;
     margin-bottom: 15px;
-    padding-bottom: 10px;
+	padding-top: 10px;
+    padding-bottom: 15px;
     border-bottom: 1px solid #e5e5e5;
     margin-top: -9px;
 }
@@ -941,7 +942,8 @@ img{
     font-weight: 500;
     color: #222;
     margin-bottom: 15px;
-    padding-bottom: 20px;
+	padding-top: 10px;
+    padding-bottom: 15px;
     border-bottom: 1px solid #e5e5e5;
     margin-top: -9px;
 }
@@ -1029,8 +1031,9 @@ img{
     font-size: 22px;
     font-weight: 500;
     color: #222;
-    margin-bottom: 30px;
     padding-bottom: 15px;
+	padding-top: 10px;
+	margin-bottom: 15px;
     border-bottom: 1px solid #e5e5e5;
     margin-top: -9px;
 }
@@ -1936,3 +1939,13 @@ img{
     opacity: 1 !important;
     transform: translateX(10px);
 }
+
+
+/*====== 我的元素风格 =======*/
+
+.picturewall {
+	position: relative;
+	margin-bottom: 30px;
+	text-align:  left;
+}
+
