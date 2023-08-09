@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网页制作练习</title>
+    <style>
+        .max-box{
+            width: 65%;
+            margin: 0 auto; /*上、右、下、左*/
+        }
+        .min-box{
+            width: 200px;
+            height: 200px;
+            box-sizing: border-box;
+
+            padding : 20px;
+            border: 10px solid red;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="max-box">
+        <h1>盒子模型</h1>
+        <p>所谓盒子模型就是把HTML页面中的元素看作是一个矩形的盒子，也就是一个盛装内容的容器。每个矩形都由元素的内容、内边距（padding）、边框（border）和外边距（margin）组成。</p>
+        <div class="max-box"><img src="images/html/盒子.png"></div> 
+        <div class="min-box">div标签一行只显示一个，是独占一行的。</div>
+        <span>span标签一行可以显示多个。</span>
+    </div>
+    <div class="max-box">
+        <h1>表格标签</h1>
+        <table border="1px" cellspacing="0" width="600px">
+            <tr>
+                <th>姓名</th>
+                <th>年龄</th>
+                <th>性别</th>
+            </tr>
+            <tr>
+                <td>张三</td>
+                <td>18</td>
+                <td>男</td>
+            </tr>
+            <tr>
+                <td>李四</td>
+                <td>20</td>
+                <td>女</td>
+            </tr>
+    </div>
+
+</body>
+</html>
